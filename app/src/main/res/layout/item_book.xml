@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="book"
+            type="br.com.diop.livrosfirebase.domain.Book" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/iv_recycler_cover"
+                android:layout_width="75dp"
+                android:layout_height="100dp"
+                android:src="@{book.cover}" />
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/iv_recycler_cover"
+                android:layout_toRightOf="@id/iv_recycler_cover"
+                android:gravity="center"
+                android:text="@{book.title}"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/text_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@{book.author}"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/text_title"
+                android:layout_alignLeft="@id/text_title"
+                android:layout_alignStart="@id/text_title"
+                android:layout_alignParentRight="true"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>

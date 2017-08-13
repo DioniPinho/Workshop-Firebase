@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Livros Firebase</string>
+    <string name="menu_sign_out">Sign out</string>
+    <string name="bt_save">Save</string>
+    <string name="hint_author">Author</string>
+    <string name="hint_title">Title</string>
+    <string name="btn_sign_in_google">Sign in with Google</string>
+    <string name="error_google_signin">Error signing in with your Google account</string>
+    <string name="remove_registry_error">Error removing record.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Livros Firebase</string>
+    <string name="bt_save">Salvar</string>
+    <string name="error_google_signin">Erro ao efetuar login com a conta do Google</string>
+    <string name="hint_author">Autor</string>
+    <string name="hint_title">Título</string>
+    <string name="menu_sign_out">Sair</string>
+    <string name="btn_sign_in_google">Entrar com Google</string>
+    <string name="remove_registry_error">Erro ao remover o registro.</string>
+</resources>
