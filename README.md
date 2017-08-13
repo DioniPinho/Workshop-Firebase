@@ -1,5 +1,5 @@
 # Workshop-Firebase
-Workshop with firebase and Kotlin.
+Workshop with Firebase and Kotlin.
 
 Generate your **Google sign in** and **Firebase storage** api keys.
 
